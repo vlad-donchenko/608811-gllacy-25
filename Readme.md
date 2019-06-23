@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Vladyslav Donchenko](https://up.htmlacademy.ru/htmlcss/25/user/608811).
-* Наставник: `Неизвестно`.
+* Наставник: Дмитрий (sench) Железцов.
 
 ---
 
