@@ -272,12 +272,17 @@
                                         Сортировка:
                                     </legend>
                                     <label for="sorting" class="visually-hidden">Сортировка товаров</label>
-                                    <select name="sorting" id="sorting" class="filter-select">
-                                        <option value="by popularity">по популярности</option>
-                                        <option value="inexpensive first">сначала недорогие</option>
-                                        <option value="first dear">сначала дорогие</option>
-                                        <option value="fat content">по жирности</option>
-                                    </select>
+                                    <div class="filter-select-wrapper">
+                                        <span class="select-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 9 5"><path fill="#FFF" d="M4.5 5L0 0h9z"/></svg>
+                                        </span>
+                                        <select name="sorting" id="sorting" class="filter-select">
+                                            <option value="by popularity">по популярности</option>
+                                            <option value="inexpensive first">сначала недорогие</option>
+                                            <option value="first dear">сначала дорогие</option>
+                                            <option value="fat content">по жирности</option>
+                                        </select>
+                                    </div>
                                 </fieldset>
                             </li>
                             <li class="filter-item filter-item-slider">
